@@ -1,0 +1,145 @@
+ 
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>涞水第二中学 - 仁爱尽责 厚德立身</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: '微软雅黑', sans-serif;
+            line-height: 1.6;
+        }
+
+        /* 头部样式 */
+        .header {
+            background-color: #003366;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+
+        .school-logo {
+            width: 100px;
+            vertical-align: middle;
+        }
+
+        /* 导航栏 */
+        .navbar {
+            background-color: #004080;
+            padding: 15px;
+        }
+
+        .navbar a {
+            color: white;
+            text-decoration: none;
+            padding: 15px 20px;
+        }
+
+        /* 轮播图 */
+        .carousel {
+            height: 400px;
+            background-color: #f0f0f0;
+            position: relative;
+            overflow: hidden;
+        }
+
+        /* 主要内容区域 */
+        .main-content {
+            padding: 30px;
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+
+        .news-section {
+            display: grid;
+            grid-template-columns: 2fr 1fr;
+            gap: 30px;
+            margin-top: 30px;
+        }
+
+        /* 页脚 */
+        .footer {
+            background-color: #333;
+            color: white;
+            padding: 40px 20px;
+            text-align: center;
+            margin-top: 50px;
+        }
+
+        /* 响应式设计 */
+        @media (max-width: 768px) {
+            .news-section {
+                grid-template-columns: 1fr;
+            }
+            
+            .navbar a {
+                display: block;
+                text-align: center;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header class="header">
+        <img src="school-logo.png" alt="校徽" class="school-logo">
+        <h1>涞水第二中学</h1>
+        <p>厚德 博学 求实 创新</p>
+    </header>
+
+    <nav class="navbar">
+        <a href="#home">首页</a>
+        <a href="#about">学校概况</a>
+        <a href="#news">新闻动态</a>
+        <a href="#teaching">教学教研</a>
+        <a href="#contact">联系我们</a>
+    </nav>
+
+    <div class="carousel">
+        <!-- 轮播图内容 -->
+    </div>
+
+    <main class="main-content">
+        <section class="news-section">
+            <div class="campus-news">
+                <h2>校园新闻</h2>
+                <article>
+                    <h3>我校在科技创新大赛中荣获一等奖</h3>
+                    <p>2025年XX月XX日，我校学生代表队在...（新闻内容）</p>
+                </article>
+                <!-- 更多新闻 -->
+            </div>
+
+            <div class="notice-board">
+                <h2>通知公告</h2>
+                <ul>
+                    <li>2025年春季学期开学通知</li>
+                    <li>校园安全须知更新公告</li>
+                    <li>教师招聘启事</li>
+                </ul>
+            </div>
+        </section>
+
+        <section class="school-intro">
+            <h2>学校简介</h2>
+            <p>涞水第二中学创建于XXXX年，是一所...（学校简介）</p>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="contact-info">
+            <p>地址：河北省保定市涞水县XX路XX号</p>
+            <p>电话：0312-XXXXXXX</p>
+            <p>邮箱：ls2z@xxxx.com</p>
+        </div>
+        <p>© 2025 涞水第二中学 版权所有</p>
+    </footer>
+</body>
+</html>
+ 
